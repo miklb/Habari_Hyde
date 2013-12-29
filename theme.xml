@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pluggable type="theme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
+	<name>Hyde</name>
+	<class>Hyde</class>
+	<license url="http://opensource.org/licenses/MIT">MIT</license>
+	<author url="http://miklb.com.com">Michael Bishop</author>
+	<url>http://miklb.com</url>
+	<version>1.0</version>
+	<template_engine>rawphpengine</template_engine>
+	<description><![CDATA[Port of the Jykell theme by <a href="http://markdotto.com">Mark Otto</a>.]]></description>
+
+	<areas>
+		
+	</areas>
+
+</pluggable>
