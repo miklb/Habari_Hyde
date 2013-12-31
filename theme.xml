@@ -8,7 +8,7 @@
 	<version>1.0</version>
 	<template_engine>rawphpengine</template_engine>
 	<description><![CDATA[Port of the Jykell theme by <a href="http://markdotto.com">Mark Otto</a>.]]></description>
-
+	<guid>F5650701-12C8-41FB-9A34-7999660560A6</guid>
 	<areas>
 		
 	</areas>
