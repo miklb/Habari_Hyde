@@ -6,5 +6,6 @@
  			<?php echo $post->content_out; ?>
     	</div>
 	</div>
+	<?php echo $theme->footer(); ?>
   </body>
 </html>

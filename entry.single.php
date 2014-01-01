@@ -8,5 +8,6 @@
  		<?php echo $post->content_out; ?>
     	</article>
 	</div>
+	<?php echo $theme->footer(); ?>
   </body>
 </html>
