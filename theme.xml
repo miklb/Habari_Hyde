@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="theme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
 	<name>Hyde</name>
 	<class>Hyde</class>
@@ -10,7 +10,16 @@
 	<description><![CDATA[Port of the Jykell theme by <a href="http://markdotto.com">Mark Otto</a>.]]></description>
 	<guid>F5650701-12C8-41FB-9A34-7999660560A6</guid>
 	<areas>
-		
+		<area name="colophon">
+			<description><![CDATA[The area below title in masthead.]]></description>
+		</area>
+		<area name="post_footer">
+			<description><![CDATA[The area below the post, before comments.]]></description>
+		</area>
 	</areas>
+
+	<provides>
+		<feature url="http://wiki.habariproject.org/en/feature/area">area</feature>
+	</provides>
 
 </pluggable>
