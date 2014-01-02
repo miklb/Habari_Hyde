@@ -63,7 +63,7 @@ Open sourced under the [MIT license](LICENSE.md).
 
 Hyde currently supports 2 block areas:
 
-* Colophon - the area below the Title and tagline. Best suited for navigation using the Menus plugin and block.
+* Colophon - the area below the Title and tagline. Best suited for navigation using the Menus plugin and block. **Note** if using the Menus plugin, you should add the class `colophon-links` to the block setting “Custom class for the tree's ordered list element”.
 * Post Footer - the area directly below the post on single post view. Example content could be a Related Posts plugin. Custom CSS may need to be applied for other types of content.
 
 The best way to customize your theme would be to create a [child theme](http://wiki.habariproject.org/en/Parent_and_Child_Themes) and apply your changes to the necessary files. So if you wanted to have the reverse layout and a different color, you could create your own header.php file in the child theme directory and add your body classes. Obviously you could modify the parent theme, but that would prevent from easily updating. Future versions may provide built in theme options if there were interest. Feel free to open an [issue](https://github.com/miklb/Habari_Hyde/issues) for feature requests and bugs.
