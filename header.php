@@ -22,16 +22,7 @@
         <p class="lead"><?php Options::out( 'tagline' ); ?></p>
 
         <div class="colophon">
-          <ul class="colophon-links">
-            <li>
-              <a href="https://github.com/miklb/Habari_Hyde/archive/v1.0.zip">Download</a>
-            </li>
-            <li>
-              <a href="https://github.com/miklb/Habari_Hyde">GitHub project</a>
-            </li>
-            <li>Currently v1.0</li>
-          </ul>
-          <p>&copy; <?php echo date ('Y'); ?>. All rights reserved.</p>
+          <?php echo $theme->area( 'colophon' ); ?>
         </div>
       </div>
     </header>
