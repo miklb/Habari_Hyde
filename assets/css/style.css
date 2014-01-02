@@ -577,6 +577,10 @@ input[type="number"]::-webkit-inner-spin-button {
   height: auto;
 }
 
+.commentform {
+  margin-top: 60px;
+}
+
 .required {
   color: #ac4142;
   font-size: 10px;
@@ -625,4 +629,26 @@ input[type="number"]::-webkit-inner-spin-button {
 #cf_content label {
   display: block;
   text-align: left;
+}
+
+/*  Comments
+-------------------------------------------*/ 
+
+.comment {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 1em;
+}
+
+.comment-avatar {
+  float: left;
+  display: block;
+  vertical-align:middle;
+  margin-right:10px;
+}
+
+.comment-content {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
 }

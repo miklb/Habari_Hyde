@@ -13,7 +13,7 @@
 			<?php if($post->comments->moderated->count == 0): ?>
 				<p><?php _e('There are no comments on this post.'); ?></p>
 			<?php else: ?>
-				<?php foreach($content->comments->moderated->comments as $comment): ?>
+				<?php foreach($post->comments->moderated->comments as $comment): ?>
 					<?php echo $theme->content($comment); ?>
 				<?php endforeach; ?>
 			<?php endif; ?>
