@@ -33,7 +33,7 @@
             </li>
             <li>Currently v1.0</li>
           </ul>
-          <p>&copy; 2014. All rights reserved.</p>
+          <p>&copy; <?php echo date ('Y'); ?>. All rights reserved.</p>
         </div>
       </div>
     </header>
