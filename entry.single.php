@@ -7,6 +7,7 @@
 
  		<?php echo $post->content_out; ?>
     	</article>
+    	<?php echo $theme->area( 'post_footer' ); ?>
 	</div>
 	<?php echo $theme->footer(); ?>
   </body>
