@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<pluggable type="theme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
+<pluggable type="theme">
 	<name>Hyde</name>
-	<class>Hyde</class>
 	<license url="http://opensource.org/licenses/MIT">MIT</license>
 	<author url="http://miklb.com.com">Michael Bishop</author>
 	<url>http://miklb.com</url>
@@ -21,5 +20,4 @@
 	<provides>
 		<feature url="http://wiki.habariproject.org/en/feature/area">area</feature>
 	</provides>
-
 </pluggable>
