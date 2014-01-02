@@ -4,7 +4,7 @@
 	<license url="http://opensource.org/licenses/MIT">MIT</license>
 	<author url="http://miklb.com.com">Michael Bishop</author>
 	<url>http://miklb.com</url>
-	<version>1.0</version>
+	<version>1.1a</version>
 	<template_engine>rawphpengine</template_engine>
 	<description><![CDATA[Port of the Jykell theme by <a href="http://markdotto.com">Mark Otto</a>.]]></description>
 	<guid>F5650701-12C8-41FB-9A34-7999660560A6</guid>
