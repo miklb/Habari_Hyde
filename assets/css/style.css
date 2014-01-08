@@ -133,6 +133,12 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
+
+.fourohfour code {
+  background-color: inherit;
+  color: #555;
+  border-radius: none;
+}
 pre {
   display: block;
   margin: 0 0 14px;
