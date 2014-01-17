@@ -7,7 +7,7 @@
   <title><?php if($request->display_entry && isset($post)) { echo "{$post->title} - "; } ?><?php Options::out( 'title' ) ?></title>
   <meta name="title" content="<?php Options::out( 'title' ) ?>">
   <meta name="description" content="<?php Options::out( 'tagline' ) ?>">
-  <meta name="author" content="<?php if($request->display_entry && isset($post)) { echo "{post->author->displayname} - "; } ?><?php Options::out( 'title' ) ?>">
+  <meta name="author" content="<?php if($request->display_entry && isset($post)) { echo "{$post->author->displayname} - "; } ?><?php Options::out( 'title' ) ?>">
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="<?php echo $theme->get_url; ?>/assets/img/favicon.png">
