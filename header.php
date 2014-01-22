@@ -9,8 +9,8 @@
   <meta name="description" content="<?php Options::out( 'tagline' ) ?>">
   <meta name="author" content="<?php if($request->display_entry && isset($post)) { echo "{$post->author->displayname} - "; } ?><?php Options::out( 'title' ) ?>">
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="<?php echo $theme->get_url; ?>/assets/img/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php Site::out_url( 'theme' ); ?>/assets/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="<?php Site::out_url( 'theme' ); ?>/assets/img/favicon.png">
   
   <?php echo $theme->header(); ?>
   
