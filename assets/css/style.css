@@ -68,26 +68,28 @@ body {
   }
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 10px;
-  font-weight: 600;
+  margin-bottom: .5rem;
+  font-weight: bold;
   line-height: 1.25;
+  color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 40px;
+  font-size: 2rem;
 }
 h2 {
-  margin-top: 20px;
-  font-size: 32px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 h3 {
-  margin-top: 24px;
-  font-size: 24px;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
 }
 h4, h5, h6 {
-  margin-top: 16px;
-  font-size: 16px;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 p {
@@ -122,6 +124,7 @@ abbr {
   border-radius: 3px;
 }
 
+/* Code */
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -133,17 +136,12 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
-
-.fourohfour code {
-  background-color: inherit;
-  color: #555;
-  border-radius: none;
-}
 pre {
   display: block;
-  margin: 0 0 14px;
-  padding: 15px 20px;
-  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -158,11 +156,17 @@ pre code {
   background-color: transparent;
 }
 .highlight {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   border-radius: 4px;
 }
 .highlight pre {
   margin-bottom: 0;
+}
+
+.fourohfour code {
+  background-color: inherit;
+  color: #555;
+  border-radius: none;
 }
 
 /* Quotes */
@@ -197,15 +201,9 @@ img {
  */
 
 .lead {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 300;
 }
-@media (min-width: 990px) {
-  .lead {
-    font-size: 24px;
-  }
-}
-
 
 /*
  * Links
@@ -246,8 +244,10 @@ a:focus {
 
 /* Masthead content */
 .masthead h1 {
+  color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface";
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
 }
 .masthead .lead {
   margin-bottom: 0;
