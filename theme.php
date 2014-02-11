@@ -4,7 +4,7 @@
 
 			function action_template_header($theme) {
 				//Add Fonts
-				Stack::add('template_stylesheet', 'http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface', 'fonts' );
+				Stack::add('template_stylesheet', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Abril+Fatface', 'fonts' );
 				//Add CSS
 				Stack::add ('template_stylesheet', array($this->get_url( '/assets/css/style.css' )),'main', 'extras');
 			}

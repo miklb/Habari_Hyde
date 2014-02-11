@@ -56,7 +56,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #454441;
@@ -224,6 +224,12 @@ a:focus {
 
 .post p a {
   color: #268bd2;
+}
+
+.post p {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
 }
 
 
