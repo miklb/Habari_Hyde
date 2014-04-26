@@ -1,10 +1,10 @@
 <?php
-	
+
 	class Hyde extends Theme {
 
 			function action_template_header($theme) {
 				//Add Fonts
-				Stack::add('template_stylesheet', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Abril+Fatface', 'fonts' );
+				Stack::add('template_stylesheet', '//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Abril+Fatface', 'fonts' );
 				//Add CSS
 				Stack::add ('template_stylesheet', array($this->get_url( '/assets/css/style.css' )),'main', 'extras');
 			}
@@ -27,15 +27,15 @@
 		}
 
 		public function action_add_template_vars($theme) {
-		
+
 		if( !$theme->template_engine->assigned( 'pages' ) ) {
-					$theme->assign('pages', 
+					$theme->assign('pages',
 						Posts::get( array( 'content_type' => 'page',
 						    'status' => Post::status('published'),
 						    'nolimit' => 1 ) ) );
 		}
 	}
 
-		
+
 	}
 ?>
