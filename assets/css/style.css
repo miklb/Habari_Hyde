@@ -444,6 +444,21 @@ a:focus {
   color: #ac4142;
 }
 
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #ce9090;
+}
+
 /* Orange */
 .theme-base-09 .masthead {
   background-color: #d28445;
@@ -452,6 +467,23 @@ a:focus {
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
 }
+
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #ecccb2;
+}
+
+
 
 /* Yellow */
 .theme-base-0a .masthead {
@@ -462,6 +494,21 @@ a:focus {
   color: #f4bf75;
 }
 
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #fae4c6;
+}
+
 /* Green */
 .theme-base-0b .masthead {
   background-color: #90a959;
@@ -469,6 +516,21 @@ a:focus {
 .theme-base-0b .container a,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
+}
+
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #e4ead6;
 }
 
 /* Cyan */
@@ -489,6 +551,21 @@ a:focus {
   color: #6a9fb5;
 }
 
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #dae7ed;
+}
+
 /* Magenta */
 .theme-base-0e .masthead {
   background-color: #aa759f;
@@ -498,6 +575,21 @@ a:focus {
   color: #aa759f;
 }
 
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #eadde7;
+}
+
 /* Brown */
 .theme-base-0f .masthead {
   background-color: #8f5536;
@@ -505,6 +597,21 @@ a:focus {
 .theme-base-0f .container a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #e4d5ce;
 }
 
 /* Related posts */
