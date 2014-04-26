@@ -226,6 +226,21 @@ a:focus {
   color: #268bd2;
 }
 
+.masthead h1 a {
+  color: #fff;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out;
+}
+
+.masthead h1 a:hover {
+  text-decoration: none;
+  color: #ababab;
+}
+
 .post p {
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1;
@@ -520,7 +535,7 @@ a:focus {
 }
 
 /*  Forms
--------------------------------------------*/ 
+-------------------------------------------*/
 
 fieldset {
   padding: 0;
@@ -644,7 +659,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 /*  Comments
--------------------------------------------*/ 
+-------------------------------------------*/
 
 .comment {
   border: 1px solid #eee;

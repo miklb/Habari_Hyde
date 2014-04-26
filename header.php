@@ -15,7 +15,7 @@
 <body class="<?php echo $theme->body_class(); ?>">
   <header class="masthead">
       <div class="masthead-inner">
-        <h1><?php Options::out( 'title' ); ?></h1>
+        <h1><a href="<?php Site::out_url( 'habari'); ?>"><?php Options::out( 'title' ); ?></a></h1>
         <p class="lead"><?php Options::out( 'tagline' ); ?></p>
 
         <div class="colophon">
