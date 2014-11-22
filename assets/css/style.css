@@ -57,14 +57,14 @@ body {
 
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.125em;
   line-height: 1.5;
   color: #454441;
   background-color: #fff;
 }
 @media (min-width: 990px) {
   body {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 
@@ -77,19 +77,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2em;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 p {
@@ -116,7 +116,7 @@ abbr {
   background-color: #eee;
   display: inline-block;
   padding: 3px;
-  font-size: 13px;
+  font-size: 0.813em;
   font-weight: bold;
   color: #555;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
@@ -201,7 +201,7 @@ img {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: 300;
 }
 
@@ -268,7 +268,7 @@ a:focus {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3.25em;
 }
 .masthead .lead {
   margin-bottom: 0;
@@ -314,7 +314,7 @@ a:focus {
     left: 0;
   }
   .masthead h1 {
-    font-size: 54px; /*Modified from original to accommodate longer words */
+    font-size: 3.375em; /*Modified from original to accommodate longer words */
   }
   .colophon {
     margin-top: 40px;
@@ -630,7 +630,7 @@ a:focus {
 .related-post a {
   margin-top: 0;
  color: #268bd2;
- font-size: 1.25rem;
+ font-size: 1.25em;
 }
 .related-post li small {
   font-size: 75%;
@@ -658,7 +658,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 1.313em;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -720,7 +720,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .required {
   color: #ac4142;
-  font-size: 10px;
+  font-size: 0.625em;
 }
 
 .commentform label {
@@ -785,7 +785,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .comment-content {
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 1.4;
   color: #555;
 }
