@@ -3,10 +3,11 @@
 class Hyde extends Theme {
 
 	function action_template_header($theme) {
-		//Add Fonts
-		Stack::add('template_stylesheet', '//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Abril+Fatface', 'fonts');
 		//Add CSS
-		Stack::add('template_stylesheet', array($this->get_url('/assets/css/style.css')), 'main', 'extras');
+		Stack::add('template_stylesheet', array($this->get_url('/assets/css/style.min.css')), 'main', 'extras');
+		//Font Loader
+		Stack::add('template_footer_javascript', '///ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js', 'fontloaderjs');
+		Stack::add('template_footer_javascript', array($this->get_url('/assets/js/site.min.js')), 'sitejs', 'fontloaderjs');
 	}
 
 	public function action_init_theme($theme) {
