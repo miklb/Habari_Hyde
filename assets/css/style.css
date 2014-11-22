@@ -57,7 +57,7 @@ body {
 
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.5;
   color: #454441;
   background-color: #fff;
@@ -245,6 +245,7 @@ a:focus {
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+  font-size: 1.1em;
 }
 
 
@@ -359,6 +360,19 @@ a:focus {
   .post {
     margin-bottom: 60px;
   }
+}
+
+@media (max-width: 768px) {
+  .post p {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 480px) {
+  .post p {
+    font-size: 1.33em;
+  }
+
 }
 
 /* Meta data line below post title */
