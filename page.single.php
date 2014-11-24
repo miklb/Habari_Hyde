@@ -1,11 +1,9 @@
-<?php $theme->display ( 'header' ); ?>	
+<?php $theme->display('header');?>
 	<div class="content container">
 		<div class="page">
-      		<h1><?php echo $post->title_out; ?></h1>
+      		<h1><?php echo $post->title_out;?></h1>
 
- 			<?php echo $post->content_out; ?>
-    	</div>
+<?php echo $post->content_out;?>
+</div>
 	</div>
-	<?php echo $theme->footer(); ?>
-  </body>
-</html>
+<?php $theme->display('footer');?>
